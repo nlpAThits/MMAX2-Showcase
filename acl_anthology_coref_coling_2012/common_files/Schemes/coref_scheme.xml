@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotationscheme>
+<attribute id="level_np_form" name="NP_Form" type="nominal_button" text="Choose noun phrase form">
+  <value id="value_np_form_none" name="none"/>
+  <value id="value_np_form_ne" name="ne"/>
+  <value id="value_np_form_def-np" name="def-np"/>
+  <value id="value_np_form_indef-np" name="indef-np"/>
+  <value id="value_np_form_conj-np" name="conj-np"/>
+  <value id="value_np_form_pper" name="pper"/>
+  <value id="value_np_form_ppos" name="ppos"/>
+  <value id="value_np_form_prefl" name="prefl"/>
+  <value id="value_np_form_pds" name="pds"/>
+  <value id="value_np_form_other" name="other"/>
+ </attribute>
+<attribute id="level_corefclass" name="Coref_class" color="green" width="2" type="markable_set" add_to_markableset_text="Mark as coreferent"  style="lcurve" remove_from_markableset_text="Unmark as coreferent" adopt_into_markableset_text="Move this into current coreference set" merge_into_markableset_text="Merge both coreference sets into one">
+<value id="value_corefclass" name="Coref_class"/>
+</attribute>
+<attribute id="level_confidence" name="Sure" type="nominal_button" text="Use this to mark if you're not sure how to resolve this anaphora">
+  <value id="value_confidences_yes" name="yes"/>
+  <value id="value_confidence_no" name="no"/>
+ </attribute>
+<!--
+<attribute id="pos_level" name="pos" type="freetext">
+<value id="pos_level_value" name="pos"/>
+</attribute>
+<attribute id="imported_tag_type_level" name="imported_tag_type" type="freetext">
+<value id="imported_tag_type_level_value" name="imported_tag_type"/>
+</attribute>
+<attribute id="type_level" name="type" type="freetext">
+<value id="type_level_value" name="type"/>
+</attribute>
+<attribute id="cat_level" name="cat" type="freetext">
+<value id="cat_level_value" name="cat"/>
+</attribute>
+-->
+</annotationscheme>
