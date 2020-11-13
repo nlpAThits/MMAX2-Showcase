@@ -2,7 +2,7 @@
 <annotationscheme>
 <attribute id="level_np_form" name="NP_Form" type="nominal_button" text="Choose noun phrase form">
   <value id="value_np_form_none" name="none"/>
-  <value id="value_np_form_ne" name="ne" next="level_corefclass"/>
+  <value id="value_np_form_ne" name="named_entity" next="level_corefclass"/>
   <value id="value_np_form_def-np" name="def-np" next="level_corefclass"/>
   <value id="value_np_form_indef-np" name="indef-np" next="level_corefclass"/>
   <value id="value_np_form_conj-np" name="conj-np" next="level_corefclass"/>
@@ -14,8 +14,8 @@
  </attribute>
 <attribute id="level_corefclass" name="Coref_class" color="green" width="2" type="markable_set" add_to_markableset_text="Mark as coreferent"  style="lcurve" remove_from_markableset_text="Unmark as coreferent" adopt_into_markableset_text="Move this into current coreference set" merge_into_markableset_text="Merge both coreference sets into one">
 <value id="value_corefclass" name="Coref_class"/>
-
 </attribute>
+
 <attribute id="level_confidence" name="Sure" type="nominal_button" text="Use this to mark if you're not sure how to resolve this anaphora">
   <value id="value_confidences_yes" name="yes"/>
   <value id="value_confidence_no" name="no"/>

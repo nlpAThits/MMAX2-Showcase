@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<common_paths>
+  <!-- The following paths are relative to the location of the respective .mmax file. -->  
+  <basedata_path>./Basedata/</basedata_path>
+  <scheme_path>../../common_files/Schemes/</scheme_path>
+  <style_path>../../common_files/Styles/</style_path>
+  <customization_path>../../common_files/Customizations/</customization_path>
+  <markable_path>./Markables/</markable_path>
+  <views>
+    <stylesheet>default_style.xsl</stylesheet>
+  </views>
+  <annotations>
+    <level customization_file="coref_customization.xml"    name="coref"    schemefile="coref_scheme_with_errors.xml">$_coref_level.xml</level>
+    <!-- at_startup="visible" blocks sentence level markables from being selected, considerably simplifying the annotation process. -->
+    <level customization_file="sentence_customization.xml" name="sentence" schemefile="sentence_scheme.xml" at_startup="visible">$_sentence_level.xml</level>
+  </annotations>
+</common_paths>
